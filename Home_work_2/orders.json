@@ -1,0 +1,60 @@
+{
+    "orders": [
+        {
+            "item": "Ноутбук",
+            "quantity": "2",
+            "price": "45500",
+            "buyer": "Fury",
+            "date": "01.01.2022"
+        },
+        {
+            "item": "ПК",
+            "quantity": "5",
+            "price": "66500",
+            "buyer": "Rasputin",
+            "date": "01.01.2022"
+        },
+        {
+            "item": "Сервер",
+            "quantity": "2",
+            "price": "512000",
+            "buyer": "Loki",
+            "date": "01.01.2022"
+        },
+        {
+            "item": "АКБ",
+            "quantity": "1",
+            "price": "900",
+            "buyer": "Werty",
+            "date": "01.01.2022"
+        },
+        {
+            "item": "Ноутбук",
+            "quantity": "2",
+            "price": "45500",
+            "buyer": "Fury",
+            "date": "01.01.2022"
+        },
+        {
+            "item": "ПК",
+            "quantity": "5",
+            "price": "66500",
+            "buyer": "Rasputin",
+            "date": "01.01.2022"
+        },
+        {
+            "item": "Сервер",
+            "quantity": "2",
+            "price": "512000",
+            "buyer": "Loki",
+            "date": "01.01.2022"
+        },
+        {
+            "item": "АКБ",
+            "quantity": "1",
+            "price": "900",
+            "buyer": "Werty",
+            "date": "01.01.2022"
+        }
+    ]
+}
