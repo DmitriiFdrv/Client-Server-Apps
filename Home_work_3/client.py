@@ -7,7 +7,7 @@ from common.variables import *
 
 
 def create_presence(account_name='guest'):
-    out =  {
+    out = {
         ACTION: PRESENCE,
         TIME: time.time(),
         USER: {
@@ -15,6 +15,7 @@ def create_presence(account_name='guest'):
         }
     }
     return out
+
 
 def process_ans(message):
     if RESPONSE in message:
@@ -37,10 +38,9 @@ def main():
         print('pot tolko ot 1024 do 65535')
         sys.exit(1)
 
-
     transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     transport.connect((server_address, server_port))
-    message_to_server = create_presence(transport)
+    message_to_server = create_presence()
     send_message(transport, message_to_server)
     try:
         answer = process_ans(get_message(transport))

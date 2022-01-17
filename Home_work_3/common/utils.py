@@ -1,4 +1,5 @@
 import json
+from .variables import *
 
 
 def get_message(client):
@@ -13,6 +14,6 @@ def get_message(client):
 
 
 def send_message(sock, message):
-    js_message = json.dump(message)
+    js_message = json.dumps(message)
     encoded_message = js_message.encode(ENCODING)
     sock.send(encoded_message)
