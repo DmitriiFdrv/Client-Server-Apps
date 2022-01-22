@@ -1,0 +1,11 @@
+prods:
+- pc
+- laptop
+- smartphone
+- headphones
+quantity: 9
+price:
+  pc: 2000€
+  laptop: 94321€
+  smartphone: 30000€
+  headphones: 2300€
